@@ -1,0 +1,5 @@
+
+type ok = {
+	ok : bool;
+}
+

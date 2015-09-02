@@ -1,0 +1,15 @@
+OASISFormat: 0.4
+Name:        telegram
+Version:     0.1
+Synopsis:    Telegram API
+Authors:     Evgenii Lepikhin
+License:     LGPL-3.0
+Plugins:     META (0.4)
+BuildTools: ocamlbuild
+AlphaFeatures: ocamlbuild_more_args
+BuildDepends: atdgen, curl, batteries
+OCamlVersion: >= 4.01
+
+Library telegram
+  Path:       src
+  Modules:    Telegram, Tel_getUpdates_j, Tel_getUpdates_t, Tel_ok_j, Tel_ok_t

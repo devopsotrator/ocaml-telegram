@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: e6bd2dfc539a1e85485474bd5a8f3995)
+version = "0.1"
+description = "Telegram API"
+requires = "atdgen curl batteries"
+archive(byte) = "telegram.cma"
+archive(byte, plugin) = "telegram.cma"
+archive(native) = "telegram.cmxa"
+archive(native, plugin) = "telegram.cmxs"
+exists_if = "telegram.cma"
+# OASIS_STOP
+
