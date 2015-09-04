@@ -1,8 +1,8 @@
 # OASIS_START
-# DO NOT EDIT (digest: 115faa7a92221023cafdf325c4798f9e)
+# DO NOT EDIT (digest: 5525ca17339a1155ea418ef383ebc278)
 version = "0.1"
 description = "Telegram API"
-requires = "atdgen netclient batteries nettls-gnutls"
+requires = "atdgen batteries netclient"
 archive(byte) = "telegram.cma"
 archive(byte, plugin) = "telegram.cma"
 archive(native) = "telegram.cmxa"
